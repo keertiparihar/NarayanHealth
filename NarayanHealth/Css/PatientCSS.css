@@ -1,0 +1,170 @@
+﻿input, select, textarea {
+    max-width: 95% !important;
+}
+
+.form-control {
+    border: 1px solid #eee !important;
+    border-radius: 0 !important;
+    height: 46px !important;
+}
+
+.label-class {
+    color: #334562;
+    font-size: 12px;
+}
+
+.label-class-payment {
+    font-weight: 500;
+    color: #334562;
+}
+button#edit-submit, a.btn.pull-right.btn-default.ripple.with-arrow {
+    padding: 0px 12px 0 0 !important;
+    border-radius: 0px;
+}
+a.btn.pull-right.btn-default.ripple.with-arrow {
+    margin-top: 50px;
+    text-transform: uppercase;
+}
+
+.btn.btn-default .fa.fa-arrow-right, a.btn.pull-right.btn-default.ripple.with-arrow {
+    margin-right: 15px;
+}
+.btn .fa.fa-arrow-right::before {
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    font-size: 14px;
+    height: 14px;
+    width: 14px;
+    -webkit-transition: all ease-out 0.3s;
+    -o-transition: all ease-out 0.3s;
+
+}
+
+small.form-text.text-muted {
+    color: #dddddd;
+}
+
+label#edit-patient-id-error {
+    font-weight: normal;
+}
+
+.btn.btn-default .fa.fa-arrow-right {
+    background: #fff;
+    color: #00acee;
+    border-right: 1px solid #929da6 !important;
+}
+
+.btn.btn-default {
+    color: #00acee !important;
+    border: 1px solid #929da6 !important;
+}
+
+button#edit-submit {
+    margin-top: 30px;
+}
+    button#edit-submit:hover {
+        border-color: #00acee !important;
+    }
+.fa.fa-arrow-right:hover {
+    
+    border-right: 1px solid #00acee !important;
+}
+.text-muted {
+    color: #dddddd;
+}
+
+.label-class-payment {
+    font-size: 13px;
+    padding-top: 10px;
+}
+
+.location.form-control, .hospital.form-control {
+    color: #7c8993;
+}
+
+h1.payOnline {
+    color: #334562;
+    line-height: 1.4;
+    margin: 0;
+    padding: 45px 0 5px;
+    font-size: 30px;
+}
+.btn-default:hover {
+    background-color:#fff !important;
+}
+footer p {
+    display: none;
+}
+i.fa.fa-arrow-right {
+    /* position: absolute; */
+    left: 0;
+    width: 45px;
+    text-align: center;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    line-height: 45px;
+    z-index: 999999;
+}
+
+
+/****************Appointment form **********************/
+.form-control {
+    border-radius: 0px;
+    height: 50px;
+}
+
+.btn.btn-default svg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 37px;
+    height: 50px;
+    float: left;
+    border-right: 1px solid #00acee;
+}
+
+.btn.btn-default {
+    position: relative;
+    padding: 0;
+}
+
+.form-check-label {
+    font-weight:100 !important;
+}
+.appointment {
+    float:right;
+}
+input.checkbox-list {
+    /* padding-right: 20px !important; */
+    margin-right: 5px !important;
+}
+textarea#YourQuery {
+    height: auto !important;
+}
+
+.field-length {
+    max-width:100% !important;
+}
+.appointment-heading {
+    color: #334562;
+    line-height: 1.4;
+    margin: 0;
+    padding: 45px 0 30px;
+    font-size: 30px;
+    font-weight:700;
+}
+footer, hr {
+    display: none !important;
+}
+.success {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
